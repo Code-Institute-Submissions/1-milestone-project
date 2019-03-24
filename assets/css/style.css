@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+    font-family: "Roboto" , sans-serif;
+    background-color: #E5FFFF;
+}
+
+.signature {
+    background: url("../images/Sajanek.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    min-height: 200px;
+}
+
+.container {
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3402E1;
+}
