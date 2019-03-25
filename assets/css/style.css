@@ -1,23 +1,168 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+/* --------------- General --------------- */
 
-body {
+body,
+html {
     margin: 0;
-    font-family: "Roboto" , sans-serif;
-    background-color: #E5FFFF;
+    font-family: "Roboto", sans-serif;
+    background-color: #e5f2ff;
 }
+
+
+
+
+/* --------------- Header --------------- */
 
 .signature {
-    background: url("../images/Sajanek.jpg");
+    background: url("../images/sajanek.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300px;
-    min-height: 200px;
+    background-size: 50%;
+    min-height: 180px;
+    max-height: 250px;
 }
+
+
+/* --------------- Headings --------------- */
+
+.heading-main {
+   text-align: center;
+   color: #6034f9;
+   padding: 70px;
+   line-height: 150%;
+   letter-spacing: 0.3rem;
+   font-weight: 700;
+}
+
+
+
+/* --------------- Navbar --------------- */
 
 .container {
     justify-content: center;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #3402E1;
+    color: #6034f9;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #6034f9;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #fffef9;
+    color: #6034f9;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(96, 52, 249, 0.5);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/list_blue.png");
+}
+
+
+
+
+/* --------------- Main --------------- */
+
+/* --------------- Footer --------------- */
+
+footer {
+    background-color: #6034f9;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: #fffef9;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-align {
+    text-align: center;
+}
+
+.break {
+    background-color: #fffef9;
+    height: 3px;
+    width: 15px;
+    display: inline-block;
+    margin: 20px 0;
+
+}
+
+hr {
+    border-top: 1px solid rgba(96, 52, 249, 0.3);
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 30%;
+    font-size: 17px;
+    line-height: 7px;
+    text-align: center;
+    color: #6034f9;
+    background: #fffef9;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fcf1b3;
+}
+
+
+.menu-links {
+    color: #fffef9;
+    text-align: center;
+    list-style: none;
+    font-size: 17px;
+
+}
+
+footer ul li a {
+    color: #fffef9;
+    text-align: none;
+    font-weight: 200;
+
+}
+
+footer ul li a:hover {
+    background: #fffef9;
+    text-decoration: none;
+    color: #6034f9;
+}
+
+#text-footer {
+    display: block;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#text-copyright {
+    font-size: 70%;
+    margin-left: 50px;
+}
+
+
+
+.container-page {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    background-color: #fffef9;
 }
