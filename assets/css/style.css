@@ -1,7 +1,5 @@
 /* --------------- General --------------- */
 
-
-
 body,
 html {
     margin: 0;
@@ -22,33 +20,71 @@ html {
     min-height: 300px;
     max-height: 320px;
     display: block;
+    background-size: contain;
 }
 
 
-/* --------------- Headings --------------- */
+/* --------------- Headings and text --------------- */
 
-.heading-main {
-   text-align: center;
-   color: #6034f9;
-   padding: 100px;
-   line-height: 150%;
-   letter-spacing: 0.3rem;
-   font-size: 300%;
-   font-weight: 700;
+h1 {
+    text-align: center;
+    color: #6034f9;
+    padding: 100px;
+    line-height: 150%;
+    letter-spacing: 0.3rem;
+    font-size: 500%;
+    font-weight: 700;
 }
 
+h2 {
+    text-align: center;
+    color: #6034f9;
+    padding: 70px;
+    line-height: 150%;
+    letter-spacing: 0.3rem;
+    font-size: 400%;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+    color: #6034f9;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    font-size: 150%;
+    font-weight: 500;
+}
 
 .block-heading {
-   text-align: center;
-   color: #fff;
-   line-height: 120%;
-   letter-spacing: 0.1rem;
-   font-size: 280%;
-   font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 120%;
+    letter-spacing: 0.1rem;
+    font-size: 280%;
+    font-weight: 700;
 }
 
-/* --------------- Navbar --------------- */
+p {
+    text-align: center;
+    color: #6034f9;
+    line-height: 140%;
+    font-size: 100%;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
 
+footer p {
+    text-align: center;
+    color: #fffef9;
+    font-size: 120%;
+    line-height: 160%;
+    font-weight: 300;
+    padding: 40px;
+}
+
+
+/* --------------- Navbar --------------- */
 
 .container {
     justify-content: center;
@@ -91,7 +127,7 @@ html {
 footer {
     background-color: #6034f9;
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     color: #fffef9;
     left: 0px;
     bottom: 0px;
@@ -148,24 +184,17 @@ hr {
 
 footer ul li a {
     color: #fffef9;
-    text-align: none;
     font-weight: 200;
 
 }
 
 footer ul li a:hover {
-    background: #fffef9;
+    background: #fff;
     text-decoration: none;
     color: #6034f9;
 }
 
-#text-footer {
-    display: block;
-    font-weight: 200;
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 30px;
-}
+
 
 #text-copyright {
     font-size: 70%;
@@ -173,15 +202,13 @@ footer ul li a:hover {
 }
 
 
+/* --------------- BG pictures --------------- */
 
-.bg-section {
-    height: 900px;
- 
-}
-
-.picture-1 {
-    background-image: url("../images/art1.jpg");
-    width: 100%;
+#picture-1 {
+    background: url("../images/art1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
     height: 90%;
     background-size: cover;
     margin: 40px auto;
@@ -189,57 +216,248 @@ footer ul li a:hover {
     position: relative;
 }
 
-.picture-1 .block-text {
+
+
+#picture-1 .block-text {
     position: absolute;
-    top: 150px;
-    left:150px;
+    top: 100px;
+    left: 5%;
     color: white;
-    width: 600px;
+    width: auto;
     text-align: center;
 }
 
-.bg-section p {
-    margin: 50px 30px;
+#picture-2 {
+    background-image: url("../images/art1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    height: 90%;
+    background-size: cover;
+    margin: 40px auto;
+    border: 10px solid #fffef9;
+    position: relative;
+}
+
+#picture-2 .block-text {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    color: white;
+    width: auto;
     text-align: center;
 }
 
-.block {
-    display: inline;
-    text-align: center;
 
-}
+
 
 .row-1 {
-background-color: #fffef9!important;
-margin: 20px;
+    background-color: #fffef9!important;
+    margin: 50px;
+    min-height: 700px;
+
 
 }
 
+/* --------------- Buttons --------------- */
+
 .btn-block {
-background-color: #fffef9;
-color: #6034f9;
-width: 200px;
-height: 50px;
-text-align: center;
-margin: auto;
-border: none;
-border-radius: 5%;
+    background-color: #fffef9;
+    color: #6034f9;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-weight: 100;
+    border: none;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+
 }
 
 .btn-block a {
-text-decoration: none;
-color: #6034f9;
-font-weight: 100;
+    text-decoration: none;
+    color: #6034f9;
+
 }
 
-.btn-block a:link, 
+.btn-block a:link,
 .btn-block a:visited {
-text-decoration: none;
-border:none;
+    text-decoration: none;
+    border: none;
 }
-
 
 .btn-block:hover {
+    transition-property: width;
+    width: 220px;
+
+}
 
 
+.btn-print {
+    background-color: #6034f9;
+    color: #fffef9;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-weight: 100;
+    border: none;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+}
+
+.btn-print a {
+    text-decoration: none;
+    color: #fffef9;
+
+}
+
+btn-block a:link,
+.btn-print a:visited {
+    text-decoration: none;
+    border: none;
+}
+
+.btn-print:hover {
+    transition-property: width;
+    width: 220px;
+
+}
+
+
+.block {
+    text-align: center;
+
+}
+
+
+
+
+.section-2 .block-text p:first-child {
+    display: block;
+    color: #6034f9;
+    line-height: 120%;
+    letter-spacing: 0.1rem;
+    font-size: 200%;
+    font-weight: 700;
+    margin: 50px;
+}
+
+#row-2 {
+    min-height: 450px;
+    padding: 20px;
+}
+
+#row-3 {
+    text-align: center;
+    padding-top: 80px;
+    min-height: 350px;
+
+}
+
+.block img {
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+
+}
+
+#block-picture {
+    background-image: url("../images/189_Brooklyn.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    margin-top: 40px;
+    border: 1px solid #6034f9;
+    opacity: 1;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+}
+
+a #block-picture:hover {
+    transition-property: opacity;
+    opacity: .5;
+}
+
+#block-picture-1 {
+    background: url("../images/265_City Hall.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    margin-top: 40px;
+    border: 1px solid #6034f9;
+    opacity: 1;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+
+}
+
+a #block-picture-1:hover {
+    transition-property: opacity;
+    opacity: .5;
+}
+
+
+input[type=email] {
+    color: #6034f9;
+    width: 300px;
+    height: 50px;
+    padding:5px 15px; 
+    background:#fffef9; 
+    border: none;
+    border-bottom: 1px solid #6034f9;
+    cursor:pointer;
+    border-radius: 5%; 
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+}
+
+input[type=email]::placeholder {
+    color: #6034f9;
+    font-weight: 100;
+}
+
+/* --------------- Queries --------------- */
+
+@media screen and (max-width:600px) {
+    /* for tablets */
+    .picture-1 .block-text {
+        width: ;
+        font-size: ;
+
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    /* for tablets */
+h1    {
+        line-height: 150%;
+        letter-spacing: 0.3rem;
+        font-size: 200%;
+        font-weight: 700;
+        padding: 20px;
+    }
+
+h2    {
+        line-height: 150%;
+        letter-spacing: 0.3rem;
+        font-size: 200%;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+.row-1 {
+    margin: 0;
+    min-height: 500px;
+
+
+}
 }
