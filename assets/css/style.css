@@ -1,13 +1,18 @@
 /* --------------- General --------------- */
 
-body,
-html {
+
+html,
+body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: #e5f2ff;
+    text-align: center;
 }
 
-
+body {
+    margin: auto;
+    box-sizing: border-box;
+}
 
 
 /* --------------- Header --------------- */
@@ -19,7 +24,7 @@ html {
     background-size: 50%;
     min-height: 300px;
     max-height: 320px;
-    display: block;
+    display: inline-block;
     background-size: contain;
 }
 
@@ -84,14 +89,19 @@ footer p {
 }
 
 
+
 /* --------------- Navbar --------------- */
 
 .container {
     justify-content: center;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
     color: #6034f9;
+    padding: 25px;
+    margin-top: 25px;
+    font-size: 1.5rem;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -176,10 +186,10 @@ hr {
 
 .menu-links {
     color: #fffef9;
-    text-align: center;
     list-style: none;
     font-size: 17px;
-
+    text-align: center;
+    margin: auto;
 }
 
 footer ul li a {
@@ -253,8 +263,8 @@ footer ul li a:hover {
 
 .row-1 {
     background-color: #fffef9!important;
-    margin: 50px;
-    min-height: 700px;
+    min-height: 500px;
+    max-height: 600px;
 
 
 }
@@ -456,8 +466,17 @@ h2    {
     
 .row-1 {
     margin: 0;
+    padding: 0;
     min-height: 500px;
 
 
 }
+
+
+.signature {
+    min-height: 100px;
+   
 }
+}
+
+
