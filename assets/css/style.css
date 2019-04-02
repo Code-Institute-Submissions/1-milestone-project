@@ -63,6 +63,16 @@ h3 {
     font-weight: 500;
 }
 
+h4 {
+    text-align: center;
+    color: #6034f9;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    font-size: 120%;
+    font-weight: 300;
+}
+
 .block-heading {
     text-align: center;
     color: #fff;
@@ -86,7 +96,6 @@ p {
     text-align: justify;
     line-height: 180%; 
     letter-spacing: 1px;
-    
 }
 
 footer p {
@@ -98,10 +107,14 @@ footer p {
     padding: 40px;
 }
 
+
+
 .row-1 img {
     width: 50%;
     float: left;
     height: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 /* --------------- Navbar --------------- */
@@ -173,7 +186,7 @@ footer {
 }
 
 .body-break {
-    border-bottom: 3px solid #6034f9;
+    border-bottom: 3px solid #ff3a3a;
     width: 25px;
     display: block;
     margin: 40px auto;
@@ -234,57 +247,15 @@ footer ul li a:hover {
 }
 
 
-/* --------------- BG pictures --------------- */
 
-#picture-1 {
-    background: url("../images/art1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 90%;
-    background-size: cover;
-    margin: 40px auto;
-    border: 10px solid #fffef9;
-    position: relative;
-}
-
-
-
-#picture-1 .block-text {
-    position: absolute;
-    top: 100px;
-    left: 5%;
-    color: white;
-    width: auto;
-    text-align: center;
-}
-
-#picture-2 {
-    background-image: url("../images/art1.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: auto;
-    height: 90%;
-    background-size: cover;
-    margin: 40px auto;
-    border: 10px solid #fffef9;
-    position: relative;
-}
-
-#picture-2 .block-text {
-    position: absolute;
-    top: 100px;
-    right: 5%;
-    color: white;
-    width: auto;
-    text-align: center;
-}
-
+/* --------------- Sections --------------- */
 
 
 .row-1 {
     background-color: #fffef9!important;
     min-height: 700px;
+    padding-bottom: 20px;
+    
 }
 
 .col {    padding-right: 0;
@@ -303,41 +274,43 @@ footer ul li a:hover {
     margin-right: 5%;
 }
 
+/* --------------- Links --------------- */
+
+.section-4 ul li {
+    list-style: none;
+    
+}
+
 
 /* --------------- Buttons --------------- */
 
-.btn-block {
+
+.section-2 .btn-block {
     background-color: #fffef9;
+    display: inline-block;
+    width: 180px;
     color: #6034f9;
-    width: 200px;
-    height: 50px;
-    text-align: center;
+    padding: 5px;
     margin: auto;
     font-weight: 100;
     border: none;
-    border-radius: 5%;
     transition-duration: 0.5s;
-
 }
 
-.btn-block a {
-    text-decoration: none;
-    color: #6034f9;
 
-}
-
-.btn-block a:link,
-.btn-block a:visited {
+.section-2 .btn-block:link,
+.section-2 .btn-block:visited {
     text-decoration: none;
     border: none;
 }
 
-.btn-block:hover {
-    transition-property: width;
-    width: 220px;
+.section-2 .btn-block:hover {
+    transition-property: padding;
+    background-color: #ff3a3a;
+    color: #fffef9;
+    padding: 7px;
 
 }
-
 
 .btn-print {
     background-color: #6034f9;
@@ -370,6 +343,27 @@ btn-block a:link,
 
 }
 
+.section-1 .btn-primary {
+    color: #ff3a3a;
+    background-color: transparent;
+    padding: 1px;
+    border: 1px solid #ff3a3a;
+    text-align: left;
+    border-radius: 0;
+    transition-duration: 0.5s;
+
+}
+
+.section-1 .btn-primary:hover {
+    transition-property: padding;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.section-1 .btn-primary:focus {
+    box-shadow: none;
+}
 
 .block {
     text-align: center;
@@ -444,7 +438,7 @@ a #block-picture:hover {
 
 a #block-picture-1:hover {
     transition-property: opacity;
-    opacity: .5;
+    filter: sepia(50%);
 }
 
 
@@ -466,6 +460,28 @@ input[type=email]::placeholder {
     color: #6034f9;
     font-weight: 100;
 }
+
+
+/* --------------- Modals --------------- */
+
+.modal-header {
+    padding: 0.5rem 1rem;
+    border-bottom: none;
+    
+}
+
+.modal-content {
+    background-color: #fffef9;
+}
+
+.close {
+    color: #6034f9;
+    opacity: 1;
+}
+
+
+
+
 
 
 
@@ -499,14 +515,6 @@ h2    {
         padding: 20px;
         
     }
-    
-.row-1 {
-    margin: 0;
-    padding: 0;
-    min-height: 500px;
-
-
-}
 
 
 .signature {
