@@ -1,6 +1,5 @@
 /* --------------- General --------------- */
 
-
 html,
 body {
     margin: 0;
@@ -11,7 +10,6 @@ body {
 
 body {
     margin: auto;
-    box-sizing: border-box;
 }
 
 
@@ -23,150 +21,11 @@ body {
     background-repeat: no-repeat;
     height: 220px;
     width: auto;
-
     display: inline-block;
     background-size: contain;
 }
 
-/* --------------- Headings and text --------------- */
-
-h1 {
-    background-color: rgba(255, 58, 58, 0.8);
-    text-align: center;
-    color: #fffef9;
-    padding: 10px;
-    line-height: 150%;
-    letter-spacing: 0.3rem;
-    font-size: 500%;
-    font-weight: 700;
-    z-index: 2;
-    height: 100px;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  margin-left: -50%;
-  top: 20%;
-  margin-top: -50px;
-}
-
-.carousel-inner {
-    position: relative;
-} 
-
-h2 {
-    text-align: center;
-    color: #6034f9;
-padding-top: 60px;
-    line-height: 150%;
-    letter-spacing: 0.3rem;
-    font-size: 400%;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-h3 {
-    text-align: center;
-    color: #6034f9;
-    padding-bottom: 10px;
-    letter-spacing: 0.1rem;
-    line-height: 150%;
-    font-size: 150%;
-    font-weight: 500;
-}
-
-h4 {
-    text-align: center;
-    color: #6034f9;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    letter-spacing: 0.1rem;
-    line-height: 150%;
-    font-size: 120%;
-    font-weight: 300;
-}
-
-.block-heading {
-    text-align: center;
-    color: #6034f9;
-    line-height: 100%;
-    letter-spacing: 0.1rem;
-    font-size: 200%;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
-
-.section-2 ul li{
-    list-style: none;
-    text-align: left;
-    padding: 5px;
-    color: #6034f9;
-    
-}
-
-.section-3 ul li{
-    list-style: none;
-    text-align: center;
-    padding: 5px;
-    color: #6034f9;
-    
-}
-
-.section-3 ul li i {
-    font-size: 150%;
-   padding: 10px;
-    
-}
-
-.dropdown-item {
-    color: #6034f9;
-    background-color: #fffef9;
-}
-
-.dropdown-item:hover {
-    background-color: #ff3a3a;
-    color: #fffef9
-}
-
-p {
-    text-align: center;
-    color: #6034f9;
-    line-height: 140%;
-    font-size: 100%;
-    font-weight: 300;
-}
-
-.row-1 p {
-
-    text-align: justify;
-    line-height: 180%; 
-    letter-spacing: 1px;
-}
-
-footer p {
-    text-align: center;
-    color: #fffef9;
-    font-size: 100%;
-    line-height: 140%;
-    font-weight: 300;
-    padding: 30px 50px;
-}
-
-.section-2 .row {
-    padding-bottom: 20px;
-}
-
-.row-1 img {
-    width: 50%;
-    float: left;
-    height: auto;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
 /* --------------- Navbar --------------- */
-
-
 
 .navbar-light .navbar-nav .nav-link {
     color: #6034f9;
@@ -199,9 +58,200 @@ footer p {
 }
 
 
+/* --------------- Headings and text --------------- */
+
+h1 {
+    background-color: rgba(96, 52, 249, 0.8);
+    text-align: center;
+    color: #fffef9;
+    padding: 20px;
+    line-height: 150%;
+    letter-spacing: 0.3rem;
+    font-size: 500%;
+    font-weight: 700;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    top: 20%;
+    margin-top: -50px;
+}
+
+.carousel-inner {
+    position: relative
+}
+
+.carousel-item img {
+    height: 600px;
+}
 
 
-/* --------------- Main --------------- */
+h2 {
+    text-align: center;
+    color: #6034f9;
+    padding-top: 60px;
+    line-height: 150%;
+    letter-spacing: 0.3rem;
+    font-size: 400%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    color: #6034f9;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+    color: #6034f9;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    font-size: 120%;
+    font-weight: 300;
+}
+
+p {
+    text-align: center;
+    color: #6034f9;
+    line-height: 140%;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+/* --------------- Sections and subsections --------------- */
+
+.block-heading {
+    text-align: center;
+    color: #6034f9;
+    line-height: 100%;
+    letter-spacing: 0.1rem;
+    font-size: 140%;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.row-1 p {
+    text-align: justify;
+    line-height: 180%;
+    letter-spacing: 1px;
+}
+
+.section-2 .row {
+    padding-bottom: 20px;
+}
+
+.row-1 img {
+    width: 50%;
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.body-break {
+    border-bottom: 3px solid #ff3a3a;
+    width: 25px;
+    display: block;
+    margin: 60px auto;
+}
+
+.row-1 {
+    background-color: #fffef9!important;
+    padding-bottom: 40px;
+}
+
+.col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.section-1 .row-1 {
+    padding-bottom: 40px;
+}
+
+.section-1 .col {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section-1 .col:nth-child(2) {
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.section-2 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#row-3 {
+    text-align: center;
+    padding-top: 80px;
+    min-height: 350px;
+
+}
+
+.section-2 p:first-child {
+    display: block;
+    color: #6034f9;
+    line-height: 120%;
+    letter-spacing: 0.1rem;
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.section-2 .row:nth-child(4){
+   margin: auto;
+}  
+
+/* --------------- Links --------------- */
+
+.section-2 ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+    color: #6034f9;
+}
+
+.section-3 ul li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    color: #6034f9;
+}
+
+.section-3 ul li i {
+    font-size: 150%;
+    padding: 10px;
+}
+
+.dropdown-item {
+    color: #6034f9;
+    background-color: #fffef9;
+}
+
+.dropdown-item:hover {
+    background-color: #ff3a3a;
+    color: #fffef9
+}
+
+.section-3 ul li {
+    list-style: none;
+}
 
 /* --------------- Footer --------------- */
 
@@ -216,6 +266,15 @@ footer {
     position: static;
 }
 
+footer p {
+    text-align: center;
+    color: #fffef9;
+    font-size: 100%;
+    line-height: 140%;
+    font-weight: 300;
+    padding: 30px 50px;
+}
+
 .footer-align {
     text-align: center;
 }
@@ -226,24 +285,10 @@ footer {
     width: 15px;
     display: inline-block;
     margin: 20px 0;
-
-}
-
-.body-break {
-    border-bottom: 3px solid #ff3a3a;
-    width: 25px;
-    display: block;
-    margin: 60px auto;
-    
-
-}
-
-hr {
-    border-top: 1px solid rgba(96, 52, 249, 0.3);
 }
 
 .social-links {
-padding: 0;    
+    padding: 0;
 }
 
 .social-links li a i {
@@ -266,7 +311,6 @@ padding: 0;
     color: #fcf1b3;
 }
 
-
 .menu-links {
     color: #fffef9;
     list-style: none;
@@ -279,7 +323,6 @@ padding: 0;
 footer ul li a {
     color: #fffef9;
     font-weight: 200;
-
 }
 
 footer ul li a:hover {
@@ -288,60 +331,12 @@ footer ul li a:hover {
     color: #6034f9;
 }
 
-
-
 #text-copyright {
     font-size: 70%;
     margin-left: 50px;
 }
 
-
-
-/* --------------- Sections --------------- */
-
-
-.row-1 {
-    background-color: #fffef9!important;
-    padding-bottom: 40px;
-    
-}
-
-.col {    padding-right: 0;
-    padding-left: 0;
-}
-
-.section-1 .row-1 {
-    padding-bottom: 40px;
-    
-}
-.section-1 .col {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.section-1 .col:nth-child(2) {
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.section-2 {
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-/* --------------- Links --------------- */
-
-.section-3 ul li {
-    list-style: none;
-    
-}
-
-
 /* --------------- Buttons --------------- */
-
 
 .btn-print {
     background-color: #6034f9;
@@ -356,10 +351,9 @@ footer ul li a:hover {
     transition-duration: 0.5s;
 }
 
-.btn-print{
+.btn-print {
     text-decoration: none;
     color: #fffef9;
-
 }
 
 btn-block a:link,
@@ -371,21 +365,20 @@ btn-block a:link,
 .btn-print:hover {
     transition-property: width;
     width: 205px;
-
 }
 
 .btn-primary {
     color: #ff3a3a;
     background-color: transparent;
     padding: 3px;
+    margin-bottom: 10px;
     border: 1px solid #ff3a3a;
     text-align: center;
     border-radius: 0;
     transition-duration: 0.3s;
-
 }
 
-.btn-primary:hover    {
+.btn-primary:hover {
     transition-property: padding;
     padding-left: 5px;
     padding-right: 5px;
@@ -393,7 +386,6 @@ btn-block a:link,
     color: #fffef9;
     border: none;
 }
-
 
 .btn-primary:focus {
     box-shadow: none;
@@ -404,9 +396,6 @@ btn-block a:link,
     text-decoration: none;
 }
 
-
-
-
 .dropdown .btn-primary {
     color: #fffef9;
     background-color: #ff3a3a;
@@ -414,99 +403,78 @@ btn-block a:link,
     border: 1px solid #ff3a3a;
     text-align: center;
     border-radius: 0;
-
 }
 
 .dropdown .btn-primary:hover {
     background-color: #fc5f5f;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #fc5f5f;
-  border-color: #fff;
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #fc5f5f;
+    border-color: #fff;
 }
 
-.section-2 .p:first-child {
-    display: block;
-    color: #6034f9;
-    line-height: 120%;
-    letter-spacing: 0.1rem;
-    font-size: 200%;
-    font-weight: 700;
-    margin-top: 10px;
-}
+/* --------------- Overlay Images portfolio --------------- */
 
-
-
-#row-3 {
-    text-align: center;
-    padding-top: 80px;
-    min-height: 350px;
-
-}
-
-
-
-
-/* --------------- Skuska overlay --------------- */
 .container {
-justify-content: center;
-  position: relative;
-  width: 100%;
-  padding: 0;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 0;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid #6034f9;
-  
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #6034f9;
+
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  width: auto;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: rgb(255, 58, 58);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(255, 58, 58);
 }
 
 .container:hover .overlay {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .text {
-  color: #fffef9;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: #fffef9;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-/* --------------- Koniec Skuska overlay --------------- */
+/* --------------- Subscription button --------------- */
 
 input[type=email] {
     color: #6034f9;
     width: 300px;
     height: 50px;
-    padding:5px 15px; 
-    background:#fffef9; 
+    padding: 5px 15px;
+    background: #fffef9;
     border: none;
     border-bottom: 1px solid #6034f9;
-    cursor:pointer;
-    border-radius: 5%; 
+    cursor: pointer;
+    border-radius: 5%;
     -webkit-border-radius: 5%;
     -moz-border-radius: 5%;
 }
@@ -522,7 +490,6 @@ input[type=email]::placeholder {
 .modal-header {
     padding: 0.5rem 1rem;
     border-bottom: none;
-    
 }
 
 .modal-content {
@@ -541,43 +508,40 @@ input[type=email]::placeholder {
 
 
 
-
 /* --------------- Queries --------------- */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
+    /* for tablets */
+    .carousel-item img {
+    height: 300px;
+}
+h1 {
+        line-height: 150%;
+        letter-spacing: 0.3rem;
+        font-size: 200%;
+        font-weight: 700;
+        padding: 20px;
+    }
+
+    h2 {
+        line-height: 150%;
+        letter-spacing: 0.3rem;
+        font-size: 200%;
+        font-weight: 700;
+        padding: 20px;
+    }
+
+    .signature {
+        min-height: 100px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
     /* for tablets */
     .picture-1 .block-text {
         width: ;
         font-size: ;
-
     }
-
 }
-
-@media screen and (max-width:500px) {
-    /* for tablets */
-h1    {
-        line-height: 150%;
-        letter-spacing: 0.3rem;
-        font-size: 200%;
-        font-weight: 700;
-        padding: 20px;
-    }
-
-h2    {
-        line-height: 150%;
-        letter-spacing: 0.3rem;
-        font-size: 200%;
-        font-weight: 700;
-        padding: 20px;
-        
-    }
-
-
-.signature {
-    min-height: 100px;
-   
-}
-}
-
 
