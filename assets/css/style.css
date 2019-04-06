@@ -17,10 +17,10 @@ body {
 
 .signature {
     background: url("../images/sajanek.png");
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     height: 220px;
-    width: auto;
+    width: 100%;
     display: inline-block;
     background-size: contain;
 }
@@ -29,9 +29,9 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #6034f9;
-    padding: 25px;
+    padding: 0 20px;
     margin-top: 25px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
