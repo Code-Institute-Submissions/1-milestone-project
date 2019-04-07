@@ -4,19 +4,19 @@ First milestone project: User-Centric Frontend Development - Code Institute
 This is my website where I present my artworks. The website allows the visitors to downloand few of my digital prints for free and leads visitors to my shops in other ecommerce websites where I sell my prints and original paintings. The website is in an English version and it is divided to five sections and covers more technologies. 
 
 ## Demo
-A live demo can be found here.
+A live demo can be found [here](https://vladkosajanek.github.io/1-milestone-project/).
 
 Desktop Demo
 
 ## UX
-I decided for a single scrolling one page website where different sections are separated areas so comming visitors can be orientated very quickly. My goal in the design was to make it as easy as possible to access information. The combination of colors was chosen to make a design come alive. I choosed eye-catching color combinations which are balanced with contrasting link colors to bring attention to important components.  
+I decided for a single scrolling one page website where different sections are separated areas so comming visitors can orientate themselves very quickly. My goal in the design was to make it as easy as possible to access information. The combination of colors was chosen to make a design come alive. I choosed eye-catching color combinations which are balanced with contrasting link colors to bring attention to important components.  
 
-For visitors via a user friendly eye-catching design, I wanted to show a bit of my portfolio with tention to lead them to other websites where they can purchase my art.  
+For visitors via a user friendly eye-catching design, I wanted to show a bit of my portfolio with attention to lead them to other websites where they can purchase my art.  
 
-This way, they would be able to see what kind of art I do, who I am and they have option to contact me, sign up for my newsletter in which I present my new artworks and see more art on websites where i sell my prints or original paintings. In five different sections of my website I wanted them to be able to do following:
+This way, they would be able to see what kind of art I do, who I am and they have option to contact me, to see my comming exibitions or sign up for my newsletter in which I present my new artworks and see more art on websites where i sell my prints or original paintings. In five different sections of my website I wanted them to be able to do following:
  
 ##### 1. SLIDESHOW section 
-Here visitors can see cycling images with some of my artworks and captions describing the website.
+Here visitors can see cycling images with some of my artworks.
 ##### 2. ABOUT section 
 In this section I describe a bit about myself so they can access information about what styles of painting techniques I like using, what material I use, what commposition I am interested in etc.
 ##### 3. PORTFOLIO section 
@@ -30,14 +30,39 @@ Links to my social media profiles are also provided for their ease of access.
 
 ## Technologies
 HTML
+
 CSS
+
 Bootstrap (4.3.1)
 
 ## Features
-
+This site uses the navbar feature from Bootstrap with an extra Navbar toggler function so navbar collapses in small screens.
+Another features which are used in this website comming also from Bootstrap and those are modal components which were used to add an extra information (in ABOUT section) and add options to reserve a ticket for event (in EVENT section).
 
 ## Features Left to Implement
 In the future, I would like to add e-commerse function so comming visitors can potentialy buy my art on my web so they do not have to be linked to other websites. 
 Furthermore I want to also add more of my artworks to Portfolio section. 
 
 ## Testing
+
+
+
+## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
+
+
+## Credits
+### Content
+All content in all sections on this website were written by me.
+
+### Media
+All photos were taken by me from my original artworks, with the exception of the one photo which was taken fron Pexels. A blue filter to carousel photos was applied to preserve the blue-yellow theme.
+
+### Acknowledgements
+The navbar toggler function was showed through this tutorial but I used it from [here](https://getbootstrap.com/docs/4.0/components/modal/#events).
+The idea of using modals also comming from code-institute tutorials but found [here](https://getbootstrap.com/docs/4.0/components/modal/#events).
+All used commponents were after styled according to needs of the website.
+
+The media query fordth was taken from this site.
+
+This is for educational use.
