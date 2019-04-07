@@ -521,10 +521,6 @@ input[type=email]::placeholder {
 
 @media screen and (max-width:768px) {
     /* for tablets */
-    .picture-1 .block-text {
-        width: ;
-        font-size: ;
-    }
      h1 {
          top: 10%;
         line-height: 150%;
@@ -537,11 +533,7 @@ input[type=email]::placeholder {
 
 
 @media screen and (max-width:576px) {
-    /* for tablets */
-   
-    
-   
-  
+    /* for mobiles */
     h1 {
         line-height: 150%;
         letter-spacing: 0.3rem;
@@ -553,14 +545,29 @@ input[type=email]::placeholder {
     h2 {
         line-height: 150%;
         letter-spacing: 0.3rem;
-        font-size: 200%;
+        font-size: 160%;
         font-weight: 700;
         padding: 20px;
     }
-
+    h4 {
+    padding-top: 0;
+}
+    .section-3 .row-1  {
+  padding-bottom: 0;
+  width: 100%;
+  margin: 0;
+}
     .signature {
         min-height: 100px;
     }
+    #row-3 {
+    padding: 0;
+    min-height: auto;
+}
+    footer {
+    margin-top: 20px;
+    padding: 0;
+}
 }
 
 
