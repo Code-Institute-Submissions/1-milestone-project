@@ -56,13 +56,15 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 All content in all sections on this website were written by me.
 
 ### Media
-All photos were taken by me from my original artworks, with the exception of the one photo which was taken fron Pexels. A blue filter to carousel photos was applied to preserve the blue-yellow theme.
+All photos were taken by me from my original artworks, with the exception of the one photo from "Carousel" which was taken from Pexels. A blue filter to carousel photos was applied to preserve the blue-yellow theme.
 
 ### Acknowledgements
 The navbar toggler function was showed through this tutorial but I used it from [here](https://getbootstrap.com/docs/4.0/components/modal/#events).
-The idea of using modals also comming from code-institute tutorials but found [here](https://getbootstrap.com/docs/4.0/components/modal/#events).
-All used commponents were after styled according to needs of the website.
 
-The media query fordth was taken from this site.
+The idea of using modals also comming from code-institute tutorials but found [here](https://getbootstrap.com/docs/4.0/components/modal/#events).
+
+All used components were after styled according to needs of the website.
+
+The media query was tried by me on different screen sizes.
 
 This is for educational use.
