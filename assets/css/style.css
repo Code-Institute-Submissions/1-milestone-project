@@ -10,6 +10,7 @@ body {
 
 body {
     margin: auto;
+    width: 100%;
 }
 
 
@@ -19,18 +20,31 @@ body {
     background: url("../images/sajanek.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 220px;
     width: 100%;
     display: inline-block;
     background-size: contain;
+}
+
+#menu {
+    position: fixed!important;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #cee5ff;
+    z-index: 999;
+}
+
+#carousel-menu {
+    margin-top: 100px;
 }
 
 /* --------------- Navbar --------------- */
 
 .navbar-light .navbar-nav .nav-link {
     color: #6034f9;
-    padding: 0 20px;
-    margin-top: 25px;
+    padding: 0 10px;
+    margin-top: 15px;
     font-size: 1.3rem;
 }
 
@@ -51,6 +65,9 @@ body {
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, .5);
     border-color: rgba(96, 52, 249, 0.5);
+    position: fixed;
+    top: 20px;
+    right: 10px;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -58,6 +75,7 @@ body {
 }
 
 
+    
 /* --------------- Headings and text --------------- */
 
 h1 {
@@ -81,7 +99,7 @@ h1 {
 h2 {
     text-align: center;
     color: #6034f9;
-    padding-top: 60px;
+    padding-top: 80px;
     line-height: 150%;
     letter-spacing: 0.3rem;
     font-size: 400%;
@@ -92,10 +110,10 @@ h2 {
 h3 {
     text-align: center;
     color: #6034f9;
+    padding-top: 90px;
     padding-bottom: 10px;
     letter-spacing: 0.1rem;
     line-height: 150%;
-    margin-top: 20px;
     font-size: 180%;
     font-weight: 400;
 }
@@ -118,6 +136,7 @@ p {
     font-size: 100%;
     font-weight: 300;
 }
+
 
 /* --------------- Carousel --------------- */
 
@@ -142,17 +161,16 @@ p {
     font-size: 140%;
     font-weight: 500;
     margin-top: 10px;
-    padding-bottom: 20px;
 }
 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .row-1 p {
     text-align: justify;
     line-height: 180%;
     letter-spacing: 1px;
-}
-
-.section-2 .row {
-    padding-bottom: 20px;
 }
 
 .row-1 img {
@@ -167,7 +185,7 @@ p {
     border-bottom: 3px solid #ff3a3a;
     width: 25px;
     display: block;
-    margin: 60px auto;
+    margin: 40px auto;
 }
 
 .row-1 {
@@ -181,7 +199,7 @@ p {
 }
 
 .section-1 .row-1 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .section-1 .col {
@@ -204,8 +222,9 @@ p {
 
 #row-3 {
     text-align: center;
-    padding-top: 80px;
-    min-height: 350px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    min-height: 300px;
 
 }
 
@@ -258,6 +277,9 @@ section-3 row-1 {
     color: #fffef9
 }
 
+.section-3 ul {
+    padding-left: 0;
+}
 .section-3 ul li {
     list-style: none;
 }
@@ -266,13 +288,14 @@ section-3 row-1 {
 
 footer {
     background-color: #6034f9;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
     color: #fffef9;
     left: 0px;
     bottom: 0px;
-    width: 100%;
+    width: 100%!important;
     position: static;
+    margin: 0!important;
 }
 
 footer p {
@@ -281,7 +304,7 @@ footer p {
     font-size: 100%;
     line-height: 140%;
     font-weight: 300;
-    padding: 30px 50px;
+    padding: 30px 20px;
 }
 
 .footer-align {
@@ -358,11 +381,7 @@ footer ul li a:hover {
     border: none;
     border-radius: 5%;
     transition-duration: 0.5s;
-}
-
-.btn-print {
     text-decoration: none;
-    color: #fffef9;
 }
 
 btn-block a:link,
@@ -380,7 +399,7 @@ btn-block a:link,
     color: #ff3a3a;
     background-color: transparent;
     padding: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 1px solid #ff3a3a;
     text-align: center;
     border-radius: 0;
@@ -433,13 +452,14 @@ btn-block a:link,
     position: relative;
     width: 100%;
     padding: 0;
+ 
 }
 
 .image {
     display: block;
     width: 100%;
-    height: auto;
     border: 1px solid #6034f9;
+    margin-top: 20px;
 
 }
 
@@ -522,13 +542,41 @@ input[type=email]::placeholder {
 @media screen and (max-width:768px) {
     /* for tablets */
      h1 {
-         top: 10%;
+        top: 10%;
         line-height: 150%;
         letter-spacing: 0.3rem;
-        font-size: 300%;
+        font-size: 200%;
         font-weight: 700;
         padding: 20px;
     }
+    
+    h2 {
+        font-size: 200%;
+        padding-top: 100px;
+    }
+    h3 {
+        padding-top: 100px;
+    }
+    h4 {
+    padding-top: 0;
+}
+
+footer p {
+    font-size: 80%;
+}
+    
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 10px;
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.signature {
+        min-height: 80px;
+}
+
+#row-3 {
+    padding-top: 20px;
 }
 
 
@@ -543,31 +591,87 @@ input[type=email]::placeholder {
     }
 
     h2 {
-        line-height: 150%;
-        letter-spacing: 0.3rem;
-        font-size: 160%;
-        font-weight: 700;
-        padding: 20px;
+        font-size: 180%;
+        padding-top: 80px;
     }
-    h4 {
-    padding-top: 0;
+
+h3 {
+    text-align: center;
+    color: #6034f9;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    margin-top: 20px;
+    font-size: 180%;
+    font-weight: 400;
+}
+
+h4 {
+    padding-top: 15px;
+    font-size: 120%;
+}
+
+p {
+    font-size: 60%;
+
+}
+
+.block-heading {
+    font-size: 100%;
+    margin-bottom: 5px;
+}
+.section-3 ul li {
+    font-size: 80%;
+}
+
+.btn-primary {
+    font-size: 80%;
+}    
+
+.btn-print {
+    margin-bottom: 10px;
+}
+.section-1 .row-1 {
+    padding-bottom: 10px;
 }
     .section-3 .row-1  {
   padding-bottom: 0;
   width: 100%;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
     .signature {
-        min-height: 100px;
-    }
+        min-height: 80px;
+        background-position: left;
+}
     #row-3 {
     padding: 0;
     min-height: auto;
+}
+    #menu {
+    height: 80px;
+   
+}
+    #carousel-menu {
+    margin-top: 70px;
 }
     footer {
     margin-top: 20px;
     padding: 0;
 }
+.navbar-collapse {
+    background-color: #cee5ff;
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    margin: 0 auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px;
+
+}
+
 }
 
 
