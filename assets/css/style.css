@@ -517,6 +517,10 @@ input[type=email]::placeholder {
     color: #6034f9;
 }
 
+.modal-body {
+   padding: 1rem 3rem;
+}
+
 .close {
     color: #6034f9;
     opacity: 1;
