@@ -48,14 +48,13 @@ Links to my social media profiles are also provided for their ease of access.
 - Colour picker
 
 ## Features
-This site uses the navbar feature from Bootstrap with an extra Navbar toggler function so navbar collapses in small screens. The Navigation Bar and Logo is sticky so the users can see a navigation bar all time while exploring this website that also means that they can quickly move to different sections very quickly. 
-The users can choose from the following menu items : *** Home About Portfolio Events SignUp ***
+- This site uses the navbar feature from Bootstrap with an extra Navbar toggler function so navbar collapses in small screens. 
+- The Navigation Bar and Logo is sticky so the users can see a navigation bar all time while exploring this website that also means that they can quickly move to different sections very quickly. 
+The users can choose from the following menu items : **Home - About - Portfolio - Events - SignUp**
+- Another features which are used in this website coming also from Bootstrap and those are modal components which were used to add an extra information (in ABOUT section) and add options to reserve a ticket for event (in EVENT section).
+- I also included input validation for the form fields and the email fields.
 
-Another features which are used in this website coming also from Bootstrap and those are modal components which were used to add an extra information (in ABOUT section) and add options to reserve a ticket for event (in EVENT section).
-
-I also included input validation for the form fields and the email fields.
-
-Portfolio pictures are getting red on hover with the caption in the middle. If the users click on them, they are linked to a new tab where they can download them. 
+- Portfolio pictures are getting red on hover with the caption in the middle. If the users click on them, they are linked to a new tab where they can download them. 
 
 
 ## Features Left to Implement
@@ -67,21 +66,29 @@ Furthermore I want to also add more of my artworks to Portfolio section.
 
 I was trying to do my website as responsive as possible on different devices. Throughout development I was calling up google chrome devops to test areas like responsiveness and to try and find out what was wrong when things were not working.
 
+To ensure compatibility and responsiveness was this site tested across multiple browsers:
+- Google Chrome
+- Firefox
+- Safari
+
+and on multiple mobile devices: 
+- iPhone 4, 5, 7/8, X
+- iPad
+- Samsung Galaxy 
+
+I have clicked on every item and in every possible order and everything seems to be correct.
+
 If you try to submit the forms or sign up button with an invalid email address there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields in the forms, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload.
 
 All links will open in a new tab using 'target="_blank". All links have been manually tested to ensure that they are pointing to the correct destination. I tested all links which lead to my social media profiles via clicking on the icons in the footer. 
 
 By clicking on the links in the navbar the user will be taken to clicked section. 
 
-This site was tested across multiple browsers  and on multiple mobile devices (iPhone 4, 5, X, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.
-I have clicked on every item and in every possible order and everything seems to be correct.
-
 I have also exported my code to the W3C markup validation service for testing my HTML file and tried to fix any anomalies or syntax or any notified warnings that were reported.
-
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
-In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
 
 ## Credits
 ### Content
