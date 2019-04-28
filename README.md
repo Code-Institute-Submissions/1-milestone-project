@@ -28,18 +28,24 @@ Important part of my site is also Subscription section where people can sign up 
 
 Links to my social media profiles are also provided for their ease of access.
 
-## Technologies
-HTML5
+## Technologies Use
+- HTML5
 
-CSS3
+- CSS3
 
-Bootstrap (4.3.1)
+- Bootstrap (4.3.1)
 
-Font-Awesome
+- Font-Awesome
 
-GitHub
+- Google fonts
 
-Cloud9
+- GitHub
+
+- Cloud9
+
+- Chrome, Firefox and Safari developer tools
+
+- Colour picker
 
 ## Features
 This site uses the navbar feature from Bootstrap with an extra Navbar toggler function so navbar collapses in small screens. The Navigation Bar and Logo is sticky so the users can see a navigation bar all time while exploring this website that also means that they can quickly move to different sections very quickly. 
@@ -60,7 +66,6 @@ Furthermore I want to also add more of my artworks to Portfolio section.
 ## Testing
 
 I was trying to do my website as responsive as possible on different devices. Throughout development I was calling up google chrome devops to test areas like responsiveness and to try and find out what was wrong when things were not working.
-The users are also able to download some of my portfolio pictures by either clicking on pictures, or by clicking on the download button bellow them.
 
 If you try to submit the forms or sign up button with an invalid email address there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields in the forms, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload.
 
@@ -68,10 +73,11 @@ All links will open in a new tab using 'target="_blank". All links have been man
 
 By clicking on the links in the navbar the user will be taken to clicked section. 
 
-This site was tested across multiple browsers and on multiple mobile devices (iPhone 4, 5, X, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.
+This site was tested across multiple browsers  and on multiple mobile devices (iPhone 4, 5, X, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.
 I have clicked on every item and in every possible order and everything seems to be correct.
 
 I have also exported my code to the W3C markup validation service for testing my HTML file and tried to fix any anomalies or syntax or any notified warnings that were reported.
+
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 

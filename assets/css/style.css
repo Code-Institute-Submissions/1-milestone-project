@@ -122,7 +122,7 @@ h4 {
     letter-spacing: 0.1rem;
     line-height: 150%;
     font-size: 120%;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 p {
@@ -217,8 +217,8 @@ p {
 
 #row-3 {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     min-height: 300px;
 }
 
@@ -238,6 +238,10 @@ p {
 
 section-3 row-1 {
     margin: 0;
+}
+
+.more-art {
+    margin-bottom: 40px;
 }
 
 /* --------------- Links --------------- */
@@ -393,21 +397,16 @@ btn-block a:link,
 .btn-primary {
     color: #ff3a3a;
     background-color: transparent;
-    padding: 3px;
-    margin-bottom: 20px;
+    padding: 3px 10px;
     border: 1px solid #ff3a3a;
     text-align: center;
     border-radius: 0;
-    transition-duration: 0.3s;
 }
 
 .btn-primary:hover {
-    transition-property: padding;
-    padding-left: 5px;
-    padding-right: 5px;
     background-color: #ff3a3a;
     color: #fffef9;
-    border: none;
+    border: 1px solid #ff3a3a;
 }
 
 .btn-primary:focus {
@@ -549,10 +548,6 @@ input[type=email]::placeholder {
         padding-top: 100px;
     }
     
-    h4 {
-        padding-top: 0;
-    }
-    
     footer p {
         font-size: 80%;
     }
@@ -592,7 +587,7 @@ input[type=email]::placeholder {
             padding-bottom: 10px;
             letter-spacing: 0.1rem;
             line-height: 150%;
-            font-size: 180%;
+            font-size: 160%;
             font-weight: 400;
         }
 
@@ -600,9 +595,13 @@ input[type=email]::placeholder {
             padding-top: 15px;
             font-size: 120%;
         }
+        
+        h5 {
+            margin-top: 20px;
+        }
 
         p {
-            font-size: 60%;
+            font-size: 80%;
         }
 
         .block-heading {
